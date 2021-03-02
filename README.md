@@ -13,5 +13,6 @@ The gradient of the negative log-likelihood cost function:
 
 And:
 
-![equation (2)](https://user-images.githubusercontent.com/29316344/109691743-5f823880-7b4d-11eb-874b-cd28434d0fbe.png)
+![equation (3)](https://user-images.githubusercontent.com/29316344/109691841-7a54ad00-7b4d-11eb-9beb-24b71e4e2415.png)
+
 
