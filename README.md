@@ -8,8 +8,10 @@ Loss function:
 
 
 The gradient of the negative log-likelihood cost function:
+
 ![equation](https://user-images.githubusercontent.com/29316344/109691606-38c40200-7b4d-11eb-87c1-ef31d7bfafc7.png)
 
 And:
+
 ![equation (2)](https://user-images.githubusercontent.com/29316344/109691743-5f823880-7b4d-11eb-874b-cd28434d0fbe.png)
 
