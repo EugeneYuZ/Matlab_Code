@@ -6,6 +6,9 @@ Loss function:
 
 ![equation (1)](https://user-images.githubusercontent.com/29316344/109691687-51341c80-7b4d-11eb-82c3-94667e730e4f.png)
 
+which is equivalent to the loss function in some online tutoring materials
+
+![image](https://user-images.githubusercontent.com/29316344/109692288-f4853180-7b4d-11eb-8d88-50017d17b412.png)
 
 The gradient of the negative log-likelihood cost function:
 
