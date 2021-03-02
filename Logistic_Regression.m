@@ -5,9 +5,9 @@ load('data.mat');
 %shuffle
 rng(2);
 shuffle_data = data(randperm(size(data, 1)), :);
-indices = crossvalind('Kfold', size(shuffle_data,1), 5); 
-cp = classperf(size(shuffle_data));
 
+
+%normalization
 x0 = shuffle_data(:, 1:60);
 x = (x0-min(x0(:))) ./ (max(x0(:))-min(x0(:)));
 y = shuffle_data(:, 61);
@@ -18,10 +18,13 @@ y = shuffle_data(:, 61);
 % Y1=y(1:k,:);
 % X2=x(k+1:end,:);
 % Y2=y(k+1:end,:);
-% 
-% [m, n] =size(X1);
-% indices=crossvalind('Kfold',data(1:M,N),5);
 
+% 5 cross validation
+indices = crossvalind('Kfold', size(shuffle_data,1), 5); 
+
+% some parameters
+% delta learning rate
+   
 [m, n] = size(x);
 m = 4/5*m;
 theta1 = zeros(n+1,1);
@@ -103,8 +106,8 @@ end
  FP_f = mean(FP);
  FN_f = mean(FN);
  
-Sensitivity = TP_f/(TP_f+FN_f);
-Specificity = TN_f/(TN_f+FP_f);
+ Sensitivity = TP_f/(TP_f+FN_f);
+ Specificity = TN_f/(TN_f+FP_f);
  
  predict = 1./(1+exp(-x_test*theta2 ));
    
