@@ -1,6 +1,6 @@
 # Matlab_Code
 Matlab codes
-This is Matlab codes for logistic regression implement.
+This is Matlab codes for logistic regression implement with cross validation and plot ROC curve for the analysis.
 
 Loss function:
 
