@@ -8,7 +8,8 @@ Loss function:
 
 which is equivalent to the loss function in some online tutoring materials
 
-![image](https://user-images.githubusercontent.com/29316344/109692288-f4853180-7b4d-11eb-8d88-50017d17b412.png)
+![equation (4)](https://user-images.githubusercontent.com/29316344/109693312-21861400-7b4f-11eb-82bd-83f09cd3d672.png)
+
 
 The gradient of the negative log-likelihood cost function:
 
